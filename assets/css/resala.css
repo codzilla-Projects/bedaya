@@ -1,0 +1,40 @@
+
+.service-item4 {
+  background: #FFFFFF;
+  box-shadow: 3px 4px 30px rgba(136, 136, 136, 0.1);
+  border-radius: 5px;
+  padding: 30px 25px;
+  text-align: right;
+  min-height: 270px;
+}
+.service-item4:hover .service-img img {
+  transform: scale(1.1);
+}
+.service-item4 .service-img img {
+  transform: scale(1);
+  transition: all 0.42s ease;
+}
+.service-item4 .service-content h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text-color);
+}
+.hover-border4 {
+  background: var(--white);
+  position: relative;
+  z-index: 1;
+}
+.hover-border4::before {
+  content: "";
+  width: 0%;
+  height: 2px;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  background: var(--primary-color);
+  transition: all 0.52s;
+  z-index: -1;
+}
+.hover-border4:hover::before {
+  width: 100%;
+}

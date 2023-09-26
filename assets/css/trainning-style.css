@@ -1,0 +1,352 @@
+/*================================================
+ First Services section
+=================================================*/
+.service-item2 {
+  position: relative;
+  z-index: 1;
+  box-shadow: 3px 4px 30px rgba(136, 136, 136, 0.1);
+  border-radius: 5px;
+  background-color: var(--primary-opcaity);
+  padding: 25px;
+  height: 220px;
+}
+.service-item2:hover::before {
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+}
+.service-item2:hover .service-content span {
+  color: var(--white);
+}
+.service-item2:hover .service-content h4 {
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 15px;
+}
+.service-item2:hover .service-content p {
+  color: var(--text-light);
+}
+.service-item2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  background: var(--primary-color);
+  z-index: -1;
+  border-radius: 0px 0px 100px 0px;
+  transition: 550ms ease-in-out 25ms;
+}
+.service-item2 .service21-icon,
+.service-item2 i {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+.service-item2 img.service21-icon{
+  width: 40px;
+  height: 40px;
+}
+.service-item2 i{
+  color:#fff;
+  font-size: 30px;
+}
+.service-item2 .service-content span {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "El Messiri", sans-serif;
+  color: var(--primary-color);
+  display: inline-block;
+  margin-bottom: 10px;
+  transition: all 0.5s ease-in-out;
+}
+.service-item2 .service-content h4 {
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--text-color);
+  margin-bottom: 15px;
+  transition: all 0.5s ease-in-out;
+}
+.service-item2 .service-content p {
+  transition: all 0.5s ease-in-out;
+  margin-bottom: 0px;
+}
+.service-item2.style-2 {
+  background: #FFFFFF;
+  box-shadow: 3px 4px 30px rgba(136, 136, 136, 0.1);
+  border-radius: 5px;
+  padding: 40px 25px 25px 25px;
+  margin-top: 25px;
+}
+.service-item2.style-2 span {
+  position: absolute;
+  top: 22px;
+  left: 15px;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--text-color2);
+  display: inline-block;
+  transition: all 0.5s ease-in-out;
+  border-radius: 5px;
+  background-color: #EEEEEE;
+  padding: 5px 10px;
+  margin-top: -45px;
+}
+.service-item2.style-2 .service-content h4 {
+  margin-bottom: 5px;
+}
+.service-item2.style-2:hover span {
+  color: var(--primary-color4);
+}
+.service-item2.style-2:hover::before {
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+}
+.service-item2.style-2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0px;
+  height: 0px;
+  background: var(--primary-color4);
+  border-radius: 0px;
+}
+.service-item2.style-4 {
+  background: #FFFFFF;
+  box-shadow: 3px 4px 30px rgba(136, 136, 136, 0.1);
+  border-radius: 5px;
+  padding: 40px 25px 25px 25px;
+  margin-top: 25px;
+}
+.service-item2.style-4 span {
+  position: absolute;
+  top: 22px;
+  left: 15px;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--text-color2);
+  display: inline-block;
+  transition: all 0.5s ease-in-out;
+  border-radius: 5px;
+  background-color: #EEEEEE;
+  padding: 5px 10px;
+  margin-top: -45px;
+}
+.service-item2.style-4 .service-content h4 {
+  margin-bottom: 5px;
+}
+.service-item2.style-4:hover span {
+  color: var(--primary-color);
+}
+.service-item2.style-4:hover::before {
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+}
+.service-item2.style-4::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0px;
+  height: 0px;
+  background: var(--primary-color);
+  border-radius: 0px;
+}
+.service-item2.style-3 {
+  background: #FFFFFF;
+  box-shadow: 3px 4px 30px rgba(136, 136, 136, 0.1);
+  border-radius: 5px;
+  padding: 40px 25px 25px 25px;
+  margin-top: 25px;
+  transition: transform 0.6s ease 0s;
+  transform: perspective(3000px) rotateY(5deg);
+}
+.service-item2.style-3:hover {
+  transform: perspective(1500px) rotateY(20deg);
+  box-shadow: 3px 4px 30px rgba(136, 136, 136, 0.16);
+}
+.service-item2.style-3:hover .service-content span {
+  color: var(--white);
+  background: var(--text-color2);
+}
+.service-item2.style-3:hover .service-content h4 {
+  color: var(--text-color);
+}
+.service-item2.style-3:hover .service-content p {
+  color: var(--text-color2);
+}
+.service-item2.style-3 span {
+  position: absolute;
+  top: 22px;
+  left: 15px;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--text-color2);
+  display: inline-block;
+  transition: all 0.5s ease-in-out;
+  border-radius: 5px;
+  background-color: #EEEEEE;
+  padding: 5px 10px;
+  margin-top: -45px;
+}
+.service-item2.style-3 .service-content h4 {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text-color);
+}
+.service-item2.style-3 .service-content p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-color2);
+  line-height: 1.5;
+  margin-bottom: 0px;
+}
+.service-item2.style-3:hover span {
+  color: var(--primary-color5);
+}
+.service-item2.style-3::before {
+  content: unset;
+}
+/*================================================
+ Second Services section
+=================================================*/
+.service-section5 {
+  position: relative;
+  overflow: hidden;
+}
+.service-section5 .service-watermark {
+  position: absolute;
+  right: 0px;
+  top: -90px;
+}
+.service-item5 {
+  position: relative;
+  background: var(--primary-opcaity);
+  box-shadow: 3px 4px 20px rgba(136, 136, 136, 0.1);
+  border-radius: 5px;
+  padding: 100px 20px;
+  transition: transform 0.6s ease 0s;
+  transform: perspective(3000px) rotateY(5deg);
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover!important;
+}
+.service-item5::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  background-color: rgba(0, 96, 128, .6);
+}
+.service-item5 .service-title {
+  position: relative;
+  padding-bottom: 4px;
+  margin-bottom: 15px;
+}
+.service-item5 .service-title::before {
+  content: "";
+  width: 75%;
+  height: 2px;
+  background-color: var(--white);
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  transition: all 0.45s ease;
+  right: 0;
+}
+.service-item5 .service-title h4 {
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--white);
+}
+.service-item5:hover {
+  transform: perspective(1500px) rotateY(20deg);
+  box-shadow: 0px 0px 30px rgba(136, 136, 136, 0.1);
+}
+.service-item5:hover .service-title::before {
+  width: 100%;
+}
+.service-item5 p{
+  color: var(--white);
+}
+/*=====================================
+ services 3 section 
+=======================================*/
+.service3-section {
+  position: relative;
+  z-index: 1;
+}
+
+.service-item3 {
+  background: #FFFFFF;
+  box-shadow: 3px 4px 30px rgba(136, 136, 136, 0.11);
+  border-radius: 5px 35px;
+  padding: 30px 20px;
+  position: relative;
+  margin-top: 30px;
+}
+.service-item3::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background: var(--primary-color);
+  opacity: 0;
+  transform: scale(0.3);
+  transition: all 450ms ease-out 25ms;
+  border-radius: 5px 35px;
+}
+.service-item3:hover::before {
+  transform: scale(1);
+  opacity: 0.1;
+}
+.service-item3:hover .read-more-icon {
+  background: var(--primary-color);
+}
+.service-item3 .read-more-icon {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 40px;
+  border: 1px solid #EEEEEE;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 45px;
+  background-color: var(--primary-opcaity);
+  transition: all 400ms ease-out 25ms;
+  cursor: pointer;
+}
+.service-item3 .read-more-icon .bi {
+  font-size: 20px;
+  color: var(--white);
+  transition: all 400ms ease-out 25ms;
+}
+.service-item3 .read-more-icon:hover {
+  background: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+.service-item3 .read-more-icon:hover .bi {
+  color: var(--white);
+}
+.service-item3 .icon {
+  margin-bottom: 25px;
+}
+.service-item3 .icon img{
+  width: 50px;
+}
+.service-item3 .content p {
+  margin-bottom: 0px;
+}
